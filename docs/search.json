@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "quarto.html#about-quarto",
+    "href": "quarto.html#about-quarto",
+    "title": "혁신교육개발원 특강",
+    "section": "About Quarto",
+    "text": "About Quarto\nOfficial website: https://quarto.org/\nQuarto is an open-source scientific and technical publishing system built on Pandoc.\n\nPublish high-quality articles, reports, presentations, websites, blogs, and books in HTML, PDF, MS Word, ePub, and more.\nAuthor with scientific markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more."
+  },
+  {
+    "objectID": "quarto.html#equations-1",
+    "href": "quarto.html#equations-1",
+    "title": "혁신교육개발원 특강",
+    "section": "Equations (1)",
+    "text": "Equations (1)\n\n\\(x, y, z\\)\n\\(x_1,x_2,x_3\\)\n\\(x^2, x^3, x^4\\)\n\\(\\alpha, \\beta, \\gamma, \\delta, \\epsilon\\)\n\\(\\frac{1}{2}, \\frac{1}{3}, \\frac{2}{3}, \\dots\\)\n\\(\\frac{1}{\\sqrt{2\\pi}} e^{-\\frac{1}{2}x^2}\\)\n\\(X_1, X_2, \\dots, X_n \\overset{i.i.d.}{\\sim} N(0,1)\\)\n\\(\\frac{X_1+\\dots+X_n}{n} \\overset{p}{\\to} \\mu\\)"
+  },
+  {
+    "objectID": "quarto.html#equations-2",
+    "href": "quarto.html#equations-2",
+    "title": "혁신교육개발원 특강",
+    "section": "Equations (2)",
+    "text": "Equations (2)\n\n\\({\\boldsymbol a}, {\\bf a}, {\\boldsymbol B}, {\\bf B}, {\\boldsymbol \\alpha}, {\\boldsymbol \\Omega}, \\dots\\)\n\\({\\cal A}, {\\cal B}, {\\cal C}, \\dots\\)\n\\(\\mathbb{R}, \\mathbb{Z}, \\mathbb{R}^2, \\dots\\)\n\\({\\bf A}^{-1}, {\\bf A}^{\\top}, {\\bf A}^t, \\dots\\)\n\\({\\boldsymbol y} = {\\bf X}{\\boldsymbol \\beta} + {\\boldsymbol \\epsilon}, \\quad {\\boldsymbol \\epsilon} \\sim N({\\bf 0}, {\\bf I})\\)\n\\(\\underset{x}{\\operatorname{min}}f(x)\\), \\(\\underset{x}{\\operatorname{argmin}}f(x)\\)\n\\(\\begin{cases} x+y = 1 \\\\ x-y = 1\\end{cases}\\)"
+  },
+  {
+    "objectID": "quarto.html#tables-1",
+    "href": "quarto.html#tables-1",
+    "title": "혁신교육개발원 특강",
+    "section": "Tables (1)",
+    "text": "Tables (1)\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1"
+  },
+  {
+    "objectID": "quarto.html#tables-2",
+    "href": "quarto.html#tables-2",
+    "title": "혁신교육개발원 특강",
+    "section": "Tables (2)",
+    "text": "Tables (2)\n\n\n\nTable 1: Main Caption\n\n\n\n\n\n\n\n(a) First Table\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\nA\nB\nC\n\n\nE\nF\nG\n\n\nA\nG\nG\n\n\n\n\n\n\n\n\n\n\n\n(b) Second Table\n\n\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\nA\nB\nC\n\n\nE\nF\nG\n\n\nA\nG\nG\n\n\n\n\n\n\n\n\n\n\n\nMain Caption"
+  },
+  {
+    "objectID": "quarto.html#diagrams-1",
+    "href": "quarto.html#diagrams-1",
+    "title": "혁신교육개발원 특강",
+    "section": "Diagrams (1)",
+    "text": "Diagrams (1)\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result1]\n  C --&gt; E[Result2]"
+  },
+  {
+    "objectID": "quarto.html#diagrams-2",
+    "href": "quarto.html#diagrams-2",
+    "title": "혁신교육개발원 특강",
+    "section": "Diagrams (2)",
+    "text": "Diagrams (2)\n\n\n\n\nsequenceDiagram\n  participant Alice\n  participant Bob\n  Alice-&gt;&gt;John: Hello John, how are you?\n  loop Healthcheck\n    John-&gt;&gt;John: Fight against hypochondria\n  end\n  Note right of John: Rational thoughts &lt;br/&gt;prevail!\n  John--&gt;&gt;Alice: Great!\n  John-&gt;&gt;Bob: How about you?\n  Bob--&gt;&gt;John: Jolly good!"
+  },
+  {
+    "objectID": "quarto.html#diagrams-3",
+    "href": "quarto.html#diagrams-3",
+    "title": "혁신교육개발원 특강",
+    "section": "Diagrams (3)",
+    "text": "Diagrams (3)\n\n\n\n\n\n\nG\n\n\n\nrun\n\nrun\n\n\n\nintr\n\nintr\n\n\n\nrun--intr\n\n\n\n\nkernel\n\nkernel\n\n\n\nrun--kernel\n\n\n\n\nrunbl\n\nrunbl\n\n\n\nintr--runbl\n\n\n\n\nrunbl--run\n\n\n\n\nzombie\n\nzombie\n\n\n\nkernel--zombie\n\n\n\n\nsleep\n\nsleep\n\n\n\nkernel--sleep\n\n\n\n\nrunmem\n\nrunmem\n\n\n\nkernel--runmem\n\n\n\n\nsleep--runmem\n\n\n\n\nswap\n\nswap\n\n\n\nsleep--swap\n\n\n\n\nrunswap\n\nrunswap\n\n\n\nswap--runswap\n\n\n\n\nrunswap--runmem\n\n\n\n\nnew\n\nnew\n\n\n\nrunswap--new\n\n\n\n\nnew--runmem"
+  },
+  {
+    "objectID": "quarto.html#footnotes",
+    "href": "quarto.html#footnotes",
+    "title": "혁신교육개발원 특강",
+    "section": "Footnotes",
+    "text": "Footnotes\nHere is an inline note.1\nInlines notes are easier to write, since you don’t have to pick an identifier and move down to type the note."
+  },
+  {
+    "objectID": "quarto.html#citation",
+    "href": "quarto.html#citation",
+    "title": "혁신교육개발원 특강",
+    "section": "Citation",
+    "text": "Citation\n\n\n\ncodes in quarto\n- Blah Blah [@chandola2009anomaly; @bronstein2017geometric].\n\n- Chandola says blah [-@chandola2009anomaly]\n\n\noutput\n\nBlah Blah (Chandola, Banerjee, and Kumar 2009; Bronstein et al. 2017).\nChandola says blah (2009)"
+  },
+  {
+    "objectID": "quarto.html#bibliography-generation",
+    "href": "quarto.html#bibliography-generation",
+    "title": "혁신교육개발원 특강",
+    "section": "Bibliography Generation",
+    "text": "Bibliography Generation\n\n\n\ncodes in quarto\n::: {#refs}\n:::\n\n\noutput\n\nBronstein, Michael M, Joan Bruna, Yann LeCun, Arthur Szlam, and Pierre Vandergheynst. 2017. “Geometric Deep Learning: Going Beyond Euclidean Data.” IEEE Signal Processing Magazine 34 (4): 18–42.\n\n\nChandola, Varun, Arindam Banerjee, and Vipin Kumar. 2009. “Anomaly Detection: A Survey.” ACM Computing Surveys (CSUR) 41 (3): 1–58."
+  },
+  {
+    "objectID": "quarto.html#tabsets",
+    "href": "quarto.html#tabsets",
+    "title": "혁신교육개발원 특강",
+    "section": "Tabsets",
+    "text": "Tabsets\n\nTab ATab B\n\n\nContent for Tab A\n\n\nContent for Tab B"
+  },
+  {
+    "objectID": "quarto.html#figures-1",
+    "href": "quarto.html#figures-1",
+    "title": "혁신교육개발원 특강",
+    "section": "Figures (1)",
+    "text": "Figures (1)"
+  },
+  {
+    "objectID": "quarto.html#figures-2",
+    "href": "quarto.html#figures-2",
+    "title": "혁신교육개발원 특강",
+    "section": "Figures (2)",
+    "text": "Figures (2)\n#| layout-ncol: 2\n#| fig-cap: \n#|   - \"Fig1: Scatter Plot\"\n#|   - \"Fig2: Dot-connected Plot\"\n\nimport matplotlib.pyplot as plt\nplt.plot([1,2,4,3],'ro'); plt.show()\nplt.plot([1,2,4,3],'--ro'); plt.show()\n\n\n\n\n\nFig1: Scatter Plot\n\n\n\n\n\nFig2: Dot-connected Plot"
+  },
+  {
+    "objectID": "quarto.html#layout-1",
+    "href": "quarto.html#layout-1",
+    "title": "혁신교육개발원 특강",
+    "section": "Layout (1)",
+    "text": "Layout (1)\n\n\n\nList One\n\nItem A\nItem B\nItem C\n\n\n\nList Two\n\nItem X\nItem Y\nItem Z"
+  },
+  {
+    "objectID": "quarto.html#layout-2",
+    "href": "quarto.html#layout-2",
+    "title": "혁신교육개발원 특강",
+    "section": "Layout (2)",
+    "text": "Layout (2)\n\n\n\n\nItem X\nItem Y\nItem Z\n\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur gravida eu erat et fring. Morbi congue augue vel eros ullamcorper, eget convallis tortor sagittis."
+  },
+  {
+    "objectID": "quarto.html#chalkboard",
+    "href": "quarto.html#chalkboard",
+    "title": "혁신교육개발원 특강",
+    "section": "Chalkboard",
+    "text": "Chalkboard\nQuarto includes a built-in version of the reveal.js-chalkboard plugin."
+  },
+  {
+    "objectID": "quarto.html#interactive-plots-1",
+    "href": "quarto.html#interactive-plots-1",
+    "title": "혁신교육개발원 특강",
+    "section": "Interactive plots (1)",
+    "text": "Interactive plots (1)"
+  },
+  {
+    "objectID": "quarto.html#interactive-plots-2",
+    "href": "quarto.html#interactive-plots-2",
+    "title": "혁신교육개발원 특강",
+    "section": "Interactive plots (2)",
+    "text": "Interactive plots (2)"
+  },
+  {
+    "objectID": "quarto.html#interactive-plots-3",
+    "href": "quarto.html#interactive-plots-3",
+    "title": "혁신교육개발원 특강",
+    "section": "Interactive plots (3)",
+    "text": "Interactive plots (3)"
+  },
+  {
+    "objectID": "quarto.html#interactive-plots-4",
+    "href": "quarto.html#interactive-plots-4",
+    "title": "혁신교육개발원 특강",
+    "section": "Interactive plots (4)",
+    "text": "Interactive plots (4)"
+  },
+  {
+    "objectID": "quarto.html#outputs",
+    "href": "quarto.html#outputs",
+    "title": "혁신교육개발원 특강",
+    "section": "Outputs",
+    "text": "Outputs\n\nAirticles & Reports: html, pdf1, pdf2, msword.\nPresentations: beamer, powerpoint.\nWebsites: DV2022, DL2022.\nBooks: Hands-On Programming with R, Python for Data Analysis, 3E."
+  },
+  {
+    "objectID": "quarto.html#minor-advantages",
+    "href": "quarto.html#minor-advantages",
+    "title": "혁신교육개발원 특강",
+    "section": "Minor advantages",
+    "text": "Minor advantages\n\nQuarto-based lecture contents OS independent. It can be used on both Windows and Mac, and can be accessed from various media such as PCs, tablets, and mobile phones.\nBy reproducing professor’s lecture notes, it is easy for students to create their own organizing blog. (Seoyeon’s Blog for classes)\nAnimation and interactive plot are supported as documents.\nLecture contents using quarto are highly specialized for review and exploration."
+  },
+  {
+    "objectID": "quarto.html#main-advantage",
+    "href": "quarto.html#main-advantage",
+    "title": "혁신교육개발원 특강",
+    "section": "Main advantage",
+    "text": "Main advantage\nYou can create lecture materials very quickly!!"
+  },
+  {
+    "objectID": "quarto.html#minor-tips",
+    "href": "quarto.html#minor-tips",
+    "title": "혁신교육개발원 특강",
+    "section": "Minor tips",
+    "text": "Minor tips\n\nTry to communicate with students through various channels. (LMS, e-mail, personal consultation, 1:1 anonymous messenger, zoom, etc)\nActive use of non-face-to-face educational contents.\nAlways think about educational materials that will attract students’ interest. (IR2022 Final)"
+  },
+  {
+    "objectID": "quarto.html#main-secret",
+    "href": "quarto.html#main-secret",
+    "title": "혁신교육개발원 특강",
+    "section": "Main secret",
+    "text": "Main secret\nIn fact, the most important secret is to invest a lot of time. But in reality it is not easy. (So you need a tool like quarto!)"
+  }
+]
